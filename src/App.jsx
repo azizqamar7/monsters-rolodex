@@ -43,9 +43,10 @@ class App extends Component {
 
     return (
       <div className='App'>
+        <h1 className='app-title'>Person Collection Using ReactJS</h1>
         <SearchBox
-          className='search-box'
-          placeholder='search person'
+          className='app-search-box'
+          placeholder='Search Person'
           onChangeHandler={onSearchChange}
         />
         <CardList person={filteredNames} />
